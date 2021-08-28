@@ -74,11 +74,65 @@ console.log("After: " + JSON.stringify(testArr));
 
 // 56
 // Understanding Boolean Values
+function welcomeToBooleans() {
+  // Only change code below this line
+
+  return true; // Change this line
+
+  // Only change code above this line
+}
+
 // 57
 // Use Conditional Logic with If Statements
+function trueOrFalse(wasThatTrue) {
+  // Only change code below this line
+    if (wasThatTrue) {
+     return "Yes, that was true";
+  }
+  return "No, that was false";
+
+
+  // Only change code above this line
+
+}
+
+trueOrFalse(true);
+trueOrFalse(false);
+
 // 58
 // Comparison with the Equality Operator
+// Setup
+function testEqual(val) {
+  if (val == 12) { // Change this line
+    return "Equal";
+  }
+  return "Not Equal";
+}
+
+testEqual(10);
+
 // 59
 // Comparison with the Strict Equality Operator
+// Setup
+function testStrict(val) {
+  if (val === 7) { // Change this line
+    return "Equal";
+  }
+  return "Not Equal";
+}
+
+testStrict(10);
+
 // 60
 // Practice comparing different values
+// Setup
+function compareEquality(a, b) {
+  if (a === b) { // Change this line
+    return "Equal";
+  }
+  return "Not Equal";
+}
+
+compareEquality(10, "10");
+
+console.log(compareEquality(10, "10"));
