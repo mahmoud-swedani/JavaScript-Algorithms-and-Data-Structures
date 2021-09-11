@@ -1,4 +1,4 @@
-// Make a Person
+// Make a Person 
 var Person = function(firstAndLast) {
     var fullName = firstAndLast;
   
